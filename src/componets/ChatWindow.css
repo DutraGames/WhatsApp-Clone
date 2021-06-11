@@ -1,0 +1,121 @@
+.ChatWindow{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.ChatWindow-header{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.ChatWindow-info{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ChatWindow-avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.ChatWindow-name{
+    font-size: 17px;
+    color: #000;
+}
+
+.ChatWindow-buttons{
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.ChatWindow-btn{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow:hidden;
+    transition: ease 0.3;
+}
+
+/* BODY */
+
+.ChatWindow-body{
+    flex: 1;
+    overflow-y: auto;
+    background-color: #e5ddd5;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/c9/1f/cd/c91fcd147661c60204bd6b8ae9c0a8fd.jpg');
+    padding: 20px 30px;
+}
+
+.ChatWindow-body::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+  }
+  
+  .ChatWindow-body::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, .2);
+  }
+
+
+/* FOOTER */
+
+.ChatWindow-footer{
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+.ChatWindow-pre{
+    display: flex;
+    margin: 0 15px;
+}
+
+.ChatWindow-inputarea{
+    flex: 1;
+}
+
+.ChatWindow-input{
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border-radius: 20px;
+    border: 0;
+    background-color: #fff;
+    color: #4a4a4a;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.ChatWindow-pos{
+    display: flex;
+    margin: 0 15px;
+}
+
+.ChatWindow-emojiarea{
+    height: 200px;
+    overflow-y: hidden;
+    transition: all ease 0.3s;
+}
+
+aside.emoji-picker-react{
+    width: auto;
+    background: none;
+}
+
+.emoji-picker-react .emoji-group:before{
+    background: none;
+}

@@ -1,0 +1,17 @@
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Login button{
+    height: 60px;
+    width: 200px;
+    font-size: large;
+    background-color: red;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 0;
+}
