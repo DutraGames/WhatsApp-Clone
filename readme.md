@@ -9,7 +9,7 @@ Apareceu a oportunidade de realizar esse projeto com o react e o Firebase. Logo 
 
 * ReactJS
 * Firebase Cloud Firestore
-* Firebase Hosting [Link do WhatsApp](https://whatsapp-clone-47db7.web.app/)
+* Firebase Hosting (Desativado...)
 
 ## Como Modificar:
 
